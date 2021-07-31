@@ -107,9 +107,8 @@ nav {
 }
 
 .hero{
-  margin-left: 25%;
-  margin-top: 30px; 
-  margin-bottom: 40px;
+  margin-top: 30px !important;
+  margin-bottom: 40px !important;
 }
 .imagetext{
   display: inline-block;
@@ -134,14 +133,13 @@ h2{
   margin-top: 25px;
   display: inline-block;
   height: auto;
-  width: 450px;
+  width: 25%;
+  text-align: center;
 }
 
 .acwalladapter{
   margin-top: 35px;
-  margin-bottom: 35px;
-  margin-left: 700px;
-  width: 440px;
+  margin-bottom: 35px;;
   text-align: center;
 }
 .acwalladapter a{
@@ -154,9 +152,10 @@ h2{
   vertical-align: top;
   font-family: "Myriad Set Pro";
   padding-top: 30px;
-  padding-right: 120px;
+  width: 20%;
   padding-bottom: 70px;
   display:inline-block;
+  margin-right: -4px;
 }
 .bottom p{
   position :relative;
@@ -174,11 +173,14 @@ h2{
   color: black
 }
 .container{
-  padding-left: 300px;
-  padding-right: 300px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .apple{
-  padding-right: 93px;
+  width: 10%;
+  display: inline-block;
+  text-align: center;
+  margin-right: -4px;
 }
 .footer{
   width: 80%;
@@ -213,6 +215,10 @@ h2{
 .subheroimg1{
   background-image: url("./images/watch_large.jpg");
 }
+
+.legal p{
+  display: inline;
+}
 .legal a{
   padding-left: 20px;
   color: black;
@@ -221,4 +227,10 @@ h2{
 }
 .legal a:last-child{
   border-right: none;
+}
+
+.USA{
+  float: right;
+  color: black;
+  display: inline;
 }
